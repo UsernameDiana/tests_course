@@ -8,3 +8,7 @@ The program reads three integer values from an input dialog.
 The three values represent the lengths of the sides of a triangle.
 The program displays a message that states whether the triangle is:
 scalene, isosceles or equilateral.
+
+* Usage
+
+1. Clone project and in the directory where its located run `python triangles.py`
