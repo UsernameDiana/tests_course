@@ -1,11 +1,11 @@
-def console():
-    try:
-        n = input("Enter a Numbers: ")
-        if n.isdigit():
-            print ("Number you entered: ", n)
-        else:
-            print (n, "- is not a number :P")
-    except Exception:
-        print ("Incorrect data entered.")
+print("Input lengths of the triangle sides: ")
+x = int(input("x: "))
+y = int(input("y: "))
+z = int(input("z: "))
 
-console()
+if x == y == z:
+    print("Equilateral triangle")
+elif x != y != z:
+    print("Scalene triangle")
+else:
+    print("isosceles triangle")
