@@ -12,3 +12,13 @@ scalene, isosceles or equilateral.
 * Usage
 
 1. Clone project and in the directory where its located run `python triangles.py`
+
+* Test scenario: check input value
+
+| TEST CASE                 |        TEST DATA      |          EXPECTED        |          ACTUAL          |
+|---------------------------|-----------------------|--------------------------|--------------------------|
+|response on valid data     |      1,2,3            |          scalene         |          scalene         |
+|                           |      3,2,3            |          isosceles       |          isosceles       |
+|                           |      3,3,3            |          equilateral     |          equilateral     |
+|response on invalid data   |      1,2,"hello"      |          invalid         |          invalid         |
+|                           |      1,2,;            |          invalid         |          invalid         |
