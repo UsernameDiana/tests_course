@@ -22,3 +22,5 @@ scalene, isosceles or equilateral.
 |                           |      3,3,3            |          equilateral     |          equilateral     |
 |response on invalid data   |      1,2,a            |          invalid         |          invalid         |
 |                           |      1, ,             |          invalid         |          invalid         |
+|                           |      0,               |          invalid         |          invalid         |
+|                           |      1,1,0            |          invalid         |          invalid         |
