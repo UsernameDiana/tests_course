@@ -5,9 +5,9 @@ written in PyCharm IDEA.
 
 b) Pylint contains checkers for PEP8 code style compliance, design, exceptions
    and many other source code analysis tools.
-   In the directory of the code file in Terminal ryn `pylint triangles.py`
+   In the directory of the code file in Terminal run `pylint triangles.py`
 
-   Result of triangles.py:
+   Result for triangles.py:
 
 ```
 Dianas-MacBook-Air:01_test_cases diana$ pylint triangles.py
@@ -73,3 +73,10 @@ up the code after you, can understand what it does.
 * Consistent Indentation, to keep the style of the code consistent and readable.
 * DRY Principle `Don't repeat yourself`, automate repetitive tasks.
 * Limit Line Length to 78
+
+6. Highlights from the lecture.
+* Early tests.
+It’s important to do tests early in the process, as it will be easier and cheaper 
+to eliminate mistakes. The longer testing is porsponed, the more code there will
+be containing errors and therefore bug finding will be harder.
+* Everyone should test.
