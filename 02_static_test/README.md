@@ -1,3 +1,5 @@
+# Static Test Techniques
+
 2. Static Code Analysis
 
 The code for triangle.py programm was developed in Python programming language
