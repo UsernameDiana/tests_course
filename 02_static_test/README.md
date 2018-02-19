@@ -61,12 +61,14 @@ the author, and approve changes in the code.
 Be kind in your review, point the mistakes made out in a nice manner.
 
 * Practice lightweight code reviews.
-No need to write a whole book for each review, it is enough to just say `indent`
+No need to write a paragraph for each review, it is enough to just say `indent`
 or `need extra space`, keep is clear.
 
 4. Review code that fails in Unittests.
 The Array is static, and therefore can’t change.
 Also the “ -  “ Should be “ = “ instead.
+
+![alt text](/Users/diana/Desktop/git/tests_course/02_static_test/test.png)
 
 5. Coding Standard Best Practices
 * Commenting and documentation of modules and functions, so the developer picking
