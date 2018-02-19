@@ -16,20 +16,22 @@ Dianas-MacBook-Air:01_test_cases diana$ pylint triangles.py
 No config file found, using default configuration
 ************* Module triangles
 C:  1, 0: Missing module docstring (missing-docstring)
-C:  4, 0: Invalid argument name "l1" (invalid-name)
-C:  4, 0: Invalid argument name "l2" (invalid-name)
-C:  4, 0: Invalid argument name "l3" (invalid-name)
+C:  4, 0: Invalid argument name "a" (invalid-name)
+C:  4, 0: Invalid argument name "b" (invalid-name)
+C:  4, 0: Invalid argument name "c" (invalid-name)
 C:  4, 0: Missing function docstring (missing-docstring)
-C: 19, 0: Invalid constant name "length1" (invalid-name)
-C: 20, 0: Invalid constant name "length2" (invalid-name)
-C: 21, 0: Invalid constant name "length3" (invalid-name)
+C: 15, 0: Invalid constant name "length1" (invalid-name)
+C: 16, 0: Invalid constant name "length2" (invalid-name)
+C: 17, 0: Invalid constant name "length3" (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+Your code has been rated at 4.67/10 (previous run: 4.38/10, +0.29)
 ```
 
 d) CC1 - Cyclomatic Complexity Analysis
 
+e) Please see the Unittests for the triangle programm here:
+[a link](https://github.com/UsernameDiana/tests_course/blob/master/01_test_cases/test_triangles.py)
 
 3. SmartBear Checklist:
 
