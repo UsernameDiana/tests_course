@@ -68,7 +68,7 @@ or `need extra space`, keep is clear.
 The Array is static, and therefore can’t change.  
 Also the “ -  “ Should be “ = “ instead.
 
-![alt text](/tests_course/02_static_test/test.png)
+![alt text](https://github.com/UsernameDiana/tests_course/blob/master/02_static_test/test.png)
 
 5. Coding Standard Best Practices
 * Commenting and documentation of modules and functions, so the developer picking
