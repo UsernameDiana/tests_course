@@ -2,7 +2,7 @@
 
 2. Static Code Analysis
 
-The code for triangle.py programm was developed in Python programming language
+The code for triangle.py program was developed in Python programming language
 written in PyCharm IDEA.
 
 b) Pylint contains checkers for PEP8 code style compliance, design, exceptions
@@ -30,8 +30,30 @@ Your code has been rated at 4.67/10 (previous run: 4.38/10, +0.29)
 
 d) CC1 - Cyclomatic Complexity Analysis
 
-e) Please see the Unittests for the triangle programm here:
+e) Please see the Unittest code for the triangle program here:
 [a link](https://github.com/UsernameDiana/tests_course/blob/master/01_test_cases/test_triangles.py)
+
+In the directory of `triangles.py` program, run `python test_triangles.py`.
+Test output:
+
+```
+Dianas-MacBook-Air:01_test_cases diana$ python test_triangles.py
+Input lengths of the triangle sides:
+enter side a
+2
+enter side b
+2
+enter side c
+2
+equilateral
+test_triangles.py:9: DeprecationWarning: Please use assertEqual instead.
+  self.assertEquals(result, 'equilateral')
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
+```
 
 3. SmartBear Checklist:
 

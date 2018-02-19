@@ -11,6 +11,8 @@ def classify_triangle(a, b, c):
         return 'equilateral'
     elif (a == b) or (b == c) or (a == c):
         return 'isosceles'
+    else:
+        return 'scalene'
 
 length1 = int(input('enter side a\n'))
 length2 = int(input('enter side b\n'))
