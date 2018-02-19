@@ -17,10 +17,11 @@ scalene, isosceles or equilateral.
 
 | TEST CASE                 |        TEST DATA      |          EXPECTED        |          ACTUAL          |
 |---------------------------|-----------------------|--------------------------|--------------------------|
-|response on valid data     |      1,2,3            |          invalid         |          scalene         |
+|response on valid data     |      3,2,4            |          scalene         |          scalene         |
 |                           |      3,2,3            |          isosceles       |          isosceles       |
 |                           |      3,3,3            |          equilateral     |          equilateral     |
 |response on invalid data   |      1,2,a            |          invalid         |          invalid         |
-|                           |      1, ,             |          invalid         |          invalid         |
+|                           |      1,               |          invalid         |          invalid         |
 |                           |      0,               |          invalid         |          invalid         |
 |                           |      1,1,0            |          invalid         |          invalid         |
+|                           |      1,2,3            |          invalid         |          invalid         |
