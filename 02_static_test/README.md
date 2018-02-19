@@ -20,13 +20,12 @@ C:  4, 0: Invalid argument name "l1" (invalid-name)
 C:  4, 0: Invalid argument name "l2" (invalid-name)
 C:  4, 0: Invalid argument name "l3" (invalid-name)
 C:  4, 0: Missing function docstring (missing-docstring)
-R:  5, 7: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
-C: 18, 0: Invalid constant name "length1" (invalid-name)
-C: 19, 0: Invalid constant name "length2" (invalid-name)
-C: 20, 0: Invalid constant name "length3" (invalid-name)
+C: 19, 0: Invalid constant name "length1" (invalid-name)
+C: 20, 0: Invalid constant name "length2" (invalid-name)
+C: 21, 0: Invalid constant name "length3" (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.57/10 (previous run: 3.57/10, +0.00)
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
 ```
 
 d) CC1 - Cyclomatic Complexity Analysis
