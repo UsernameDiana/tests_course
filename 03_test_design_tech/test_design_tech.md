@@ -44,9 +44,10 @@ This can go on forever...
 
         999   1001          74.999  75.001
 ------------|-----------------------|-------------
+
            1000                   75.000
 
-  INVALID            VALID              INVALID
+  INVALID   |         VALID         |     INVALID
 
 * If the value is 1 and more under 1000 the value is invalid.
 * If the value is between 1000 and 75.000 the value is valid.
