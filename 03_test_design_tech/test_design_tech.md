@@ -100,9 +100,9 @@ Values to check on for Year: Unlimited range of Integers.
 
 2. Test cases from the state diagram
 
-    S1 - empty list
-    S2 - elements in list
-    S3 - index out of bound
-    S4 - expanded list
+    * S1 - empty list
+    * S2 - elements in list
+    * S3 - index out of bound
+    * S4 - expanded list
 
 ![alt text](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/state_test_cases.jpg)
