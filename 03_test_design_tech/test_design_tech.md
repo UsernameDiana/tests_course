@@ -66,9 +66,9 @@ Values to check on for Year: Unlimited range of Integers.
 | Hospital       |  T  | T | F | F |
 |                |     |   |   |   |
 | Doctor         |  T  | F | T | F |
-|----------------|-----|---|---|---|
+|                |     |   |   |   |
 | ACTION         |     |   |   |   |
-|----------------|-----|---|---|---|
+|                |     |   |   |   |
 | 0%             |     |   |   | T |
 |                |     |   |   |   |
 | 50%            |     |   | T |   |
@@ -85,9 +85,9 @@ Values to check on for Year: Unlimited range of Integers.
 | / 100          |  T  | T | F | T |  F  | F | F | T |
 |                |     |   |   |   |     |   |   |   |
 | / 400          |  T  | F | F | T |  F  | T | T | F |
-|----------------|-----|---|---|---|-----|---|---|---|
+|                |     |   |   |   |     |   |   |   |
 | ACTION         |     |   |   |   |     |   |   |   |
-|----------------|-----|---|---|---|-----|---|---|---|
+|                |     |   |   |   |     |   |   |   |
 | Leap year      |  T  | T | T | F |  F  | F | T | F |
 |                |     |   |   |   |     |   |   |   |
 
@@ -96,7 +96,7 @@ Values to check on for Year: Unlimited range of Integers.
 
 1. Make a state diagram that depicts the states of MyArrayListWithBugs.java
 
-![alt text](/tests_course/03_test_design_tech/state_diagram.jpg)
+![alt text](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/state_diagram.jpg)
 
 2. Test cases from the state diagram
 
