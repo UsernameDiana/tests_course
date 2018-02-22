@@ -22,7 +22,7 @@
 |---------------------------|--------------------------------|
 |month < 1                  |      invalid                   |
 |month > 12                 |      invalid                   |
-|1 < month  < 12            |      valid                     |
+|1 < month  < 12            |      is valid                  |
 |                           |                                |
 
 int year has to be an INTEGER number above 0, not double.
@@ -42,7 +42,7 @@ This can go on forever...
 2. Do boundary value analysis for input values exercise 2
 
 
-        999   1001        74.999  75.001
+        999 |  1001          74.999 | 75.001
 ------------|-----------------------|-------------
 
            1000                 75.000
@@ -106,3 +106,11 @@ Values to check on for Year: Unlimited range of Integers.
     * S4 - expanded list
 
 ![alt text](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/state_test_cases.jpg)
+
+5. Consider whether a state table is more useful design technique. Comment on that.
+
+6. Make a conclusion where you specify the level of test coverage and argue
+    for your chosen level:
+
+    * Percentage of states visited
+    * Percentage of transitions exercised
