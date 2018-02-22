@@ -88,9 +88,16 @@ Values to check on for Year: Unlimited range of Integers.
 |----------------|-----|---|---|---|-----|---|---|---|
 | ACTION         |     |   |   |   |     |   |   |   |
 |----------------|-----|---|---|---|-----|---|---|---|
-| Lear year      |  T  | T | T | F |  F  | F | T | F |
+| Leap year      |  T  | T | T | F |  F  | F | T | F |
 |----------------|-----|---|---|---|-----|---|---|---|
 
 
 # State transition
 
+1. Make a state diagram that depicts the states of MyArrayListWithBugs.java
+
+![alt text](/tests_course/03_test_design_tech/state_diagram.jpg)
+
+2. Test cases from the state diagram
+
+![alt text]()
