@@ -42,12 +42,11 @@ This can go on forever...
 2. Do boundary value analysis for input values exercise 2
 
 
-        999   1001          74.999  75.001
+        999   1001        74.999  75.001
 ------------|-----------------------|-------------
 
-           1000                   75.000
+           1000                 75.000
 
-  INVALID   |         VALID         |     INVALID
 
 * If the value is 1 and more under 1000 the value is invalid.
 * If the value is between 1000 and 75.000 the value is valid.
