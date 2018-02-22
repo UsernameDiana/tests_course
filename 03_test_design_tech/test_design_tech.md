@@ -107,10 +107,17 @@ Values to check on for Year: Unlimited range of Integers.
 
 ![alt text](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/state_test_cases.jpg)
 
-5. Consider whether a state table is more useful design technique. Comment on that.
+3. Consider whether a state table is more useful design technique.
 
-6. Make a conclusion where you specify the level of test coverage and argue
-    for your chosen level:
+    In my opinion all of the presented test design techniques (Boundary analyses,
+    Decision table, State diagram and Equivalence classes) are very useful
+    to practice, it helps to clarify the purpose of the tasks and functionality.
+    State table helped to make test cases and get a better overview of the program.
+
+4. Make a conclusion where you specify the level of test coverage and argue
+   for your chosen level:
 
     * Percentage of states visited
+    All states where visited, so 100%, even `index out of bound` as it was optional.
     * Percentage of transitions exercised
+    We tested for invalid input to get the exception.
