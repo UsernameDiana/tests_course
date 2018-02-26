@@ -107,7 +107,7 @@ Values to check on for Year: Unlimited range of Integers.
 
 ![alt text](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/state_test_cases.jpg)
 
-3. and 4. Unittests:
+3. / 4. Link to Unittests:
 
 ![a link](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/MyArrayListWithBugs/test/JunitTests/MyArrayListWithBugsTest.java)
 
