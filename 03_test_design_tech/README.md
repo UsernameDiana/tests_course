@@ -25,7 +25,7 @@
 |1 < month  < 12            |      is valid                  |
 |                           |                                |
 
-int year has to be an INTEGER number above 0, not double.
+`int year` has to be an INTEGER number above 0, not double.
 
 
 # Boundary Analysis
@@ -107,14 +107,18 @@ Values to check on for Year: Unlimited range of Integers.
 
 ![alt text](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/state_test_cases.jpg)
 
-3. Consider whether a state table is more useful design technique.
+3. and 4. Unittests:
+
+![a link](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/MyArrayListWithBugs/test/JunitTests/MyArrayListWithBugsTest.java)
+
+5. Consider whether a state table is more useful design technique.
 
     In my opinion all of the presented test design techniques (Boundary analyses,
     Decision table, State diagram and Equivalence classes) are very useful
     to practice, it helps to clarify the purpose of the tasks and functionality.
     State table helped to make test cases and get a better overview of the program.
 
-4. Make a conclusion where you specify the level of test coverage and argue
+6. Make a conclusion where you specify the level of test coverage and argue
    for your chosen level:
 
     * Percentage of states visited
