@@ -18,7 +18,7 @@ public class MyArrayListWithBugs {
     // Inserts object at the end of list
     public void add(Object o) {
         // check capacity
-        if (list.length <= nextFree) {
+        if (list.length >= nextFree) {
             list = getLongerList();
         }
 
@@ -34,11 +34,17 @@ public class MyArrayListWithBugs {
     // Returns a reference to the object at position index
     // Throws IndexOutOfBoundsException
     public Object get(int index) {
-        if (index <= 0 || nextFree < index) {
+        if (index < 0 || nextFree < index) {
             throw new IndexOutOfBoundsException("Error (get): Invalid index"
                     + index);
         }
 
+        if (list[index] == null) {
+            throw new NullPointerException("Error (get): No element found"
+                    + index);
+        }
+
+//        System.out.println("ELEMENET GET " + list[index]);
         return list[index];
     }
 
@@ -62,6 +68,7 @@ public class MyArrayListWithBugs {
         }
 
         list[index] = o;
+        nextFree++;
     }
 
     // Removes object at position index
@@ -87,12 +94,11 @@ public class MyArrayListWithBugs {
     //============== private helper methods ==========
     // create a list with double capacity and
     // copy all elements to this
-    private Object[] getLongerList() {
+    public Object[] getLongerList() {
         Object[] tempList = new Object[list.length * 2];
         for (int i = 0; i < list.length; i++) {
             tempList[i] = list[i];
         }
         return tempList;
     }
-
 }
