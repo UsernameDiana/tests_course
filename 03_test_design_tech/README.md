@@ -109,7 +109,7 @@ Values to check on for Year: Unlimited range of Integers.
 
 3. / 4. Link to Unittests:
 
-![a link](https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/MyArrayListWithBugs/test/JunitTests/MyArrayListWithBugsTest.java)
+https://github.com/UsernameDiana/tests_course/blob/master/03_test_design_tech/MyArrayListWithBugs/test/JunitTests/MyArrayListWithBugsTest.java
 
 5. Consider whether a state table is more useful design technique.
 
