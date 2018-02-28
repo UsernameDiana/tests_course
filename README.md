@@ -7,4 +7,6 @@ https://github.com/UsernameDiana/tests_course/tree/master/01_test_cases
 https://github.com/UsernameDiana/tests_course/tree/master/02_static_test
 
 ### Assignment 3: Test Case Design
-https://github.com/UsernameDiana/tests_course/tree/master/03_test_design_tech 
+https://github.com/UsernameDiana/tests_course/tree/master/03_test_design_tech
+
+### Assignment 4: Unit-testing
