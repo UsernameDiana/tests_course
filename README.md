@@ -10,4 +10,4 @@ https://github.com/UsernameDiana/tests_course/tree/master/02_static_test
 https://github.com/UsernameDiana/tests_course/tree/master/03_test_design_tech
 
 ### Assignment 4: JUnit-testing
-https://github.com/edipetres/testing-course-junit1
+https://github.com/UsernameDiana/Junit_tests_course
