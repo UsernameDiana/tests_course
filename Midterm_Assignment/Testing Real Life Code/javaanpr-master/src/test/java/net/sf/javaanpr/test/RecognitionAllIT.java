@@ -1,5 +1,6 @@
 package net.sf.javaanpr.test;
 
+import java.io.IOException;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -12,7 +13,7 @@ public class RecognitionAllIT {
     // test that will report green/red for each image being tested
     
     @Test
-    public void RecognitionAllIT() {
+    public void RecognitionAllIT() throws IOException{
     }
     
     // how images are read, 
