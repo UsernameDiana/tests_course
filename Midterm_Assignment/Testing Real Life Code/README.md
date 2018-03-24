@@ -30,5 +30,5 @@
     * whether what you implemented was a Unit Test or a JUnit Test,
     * the problems you might have discovered with the test and,
     * your suggestions for ways this could have been fixed.
-* The steps you took to include Hamcrest matchers in the project, and the difference they made for
-the test
+* The steps you took to include Hamcrest matchers in the project and the
+  difference they made for the test.
