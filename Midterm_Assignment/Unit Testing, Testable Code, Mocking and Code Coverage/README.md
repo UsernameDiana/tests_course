@@ -19,8 +19,6 @@
      decision-making code (when to do something) from action code (what to do
      when something happens) using a constructor.
 
-
-* Execute your test cases.
 * Explain about JUnit, Hamcrest, Mockito and Jacoco, and what problems they
   solve for testers.
 * Demonstrate how you used Mockito to mock away external Dependencies.
